@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, sans-serif;
+  background: #f4f6fb;
+}
+main { text-align: center; }
+svg { width: min(90vw, 600px); touch-action: none; }
+#linha { fill: none; stroke: #1d3a8a; stroke-width: 4; stroke-linecap: round; }
+#alca { fill: #1d3a8a; cursor: grab; }
+#porcentagem { font-size: 2rem; font-weight: 700; }
